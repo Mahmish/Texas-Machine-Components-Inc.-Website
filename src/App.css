@@ -1,0 +1,2890 @@
+/* ----------------------------header-------------------------------- */
+.header-top-bar{
+  background-color: white;
+  color: #0e194a;
+  padding: 10px 0;
+}
+.header-top-bar h5{
+  font-family: "Poppins", sans-serif;
+  font-size: 27px;
+  text-transform: uppercase;
+  margin: 0;
+}
+.company-name a{
+  text-decoration: none;
+  color: #0e194a;
+}
+.header-top-bar .email{
+  font-family: "Poppins", sans-serif;
+  font-size: 20.09px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.header-top-bar .email i{
+  margin-right: 20px;
+}
+.header-top-bar .email a{
+  text-decoration: none;
+  color: black;
+}
+.nav-bar{
+  background-color: #0e194a;
+  padding: 20px 0;
+}
+.nav-bar .menu ul{
+  list-style: none;
+  display: flex ;
+  justify-content: space-between;
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+  text-transform: uppercase;
+  padding: 0;
+}
+.nav-bar .menu ul li a{
+  text-decoration: none;
+  color: white;
+}
+.nav-bar .phone-no{
+  display: flex;
+  justify-content: flex-end;
+}
+.nav-bar .phone-no a{
+  text-decoration: none;
+  color: white;
+}
+.nav-bar .phone-no span{
+  font-family: "Poppins", sans-serif;
+  font-size: 24px;
+}
+.nav-bar .phone-no i{
+ font-size: 20px;
+ display: flex;
+ align-items: center;
+ margin-right: 20px;
+}
+
+/* ----------------------------1 title page-------------------------------- */
+.banner{
+  background-image: url('./assets/images/backgound-image.jpg');
+  height: 100vh;
+  width: 100%;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+}
+.banner-content h1{
+  font-family: "Poppins", sans-serif;
+  font-size: 73px;
+  text-transform: uppercase;
+}
+.banner-content p{
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  padding-bottom: 30px;
+  margin: 0;
+}
+.learn-more-btn{
+  display: inline;
+}
+.learn-more-btn {
+  color: white;
+  background-color: #0e194a;
+  padding: 10px 30px;
+  text-decoration: none;
+  font-size: 18px;
+  border-radius: 8px;
+
+}
+/* -------------------------2 page(catagories)---------------------------------------------- */
+.catagory-content{
+  background-color: white;
+  text-align: center;
+  padding: 20px 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+.catagories{
+  margin-top: -60px;
+}
+.catagory-content h4{
+  padding-top: 10px;
+  font-family: "Poppins", sans-serif;
+  font-size: 24px;
+}
+.catagory-content p{
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+  padding: 0;
+}
+.about-us{
+  padding: 100px 0;
+}
+.about-us-imag1{
+  margin-top: 40px;
+}
+.about-us-imagesContainer{
+  display: flex;
+  justify-content: space-around;
+  position: relative;
+}
+.play-btn{
+  position: absolute;
+  top: 35%;
+  left: 41%;
+}
+.about-us-content span{
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+}
+.about-us-content h2{
+  font-family: "Poppins", sans-serif;
+  font-size: 50px;
+  padding: 10px 0;
+}
+.about-us-content p{
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  padding-bottom: 30px;
+  line-height: 28px;
+}
+/* -------------------------------------5 page(service)----------------------------------- */
+.services{
+  padding: 50px 0;
+}
+.service-title h2{
+  font-family: "Poppins", sans-serif;
+  font-size: 73px;
+  color: #0e194a;
+  text-transform: uppercase;
+}
+.service-title p{
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  padding: 10px 0;
+
+}
+.service-content{
+  background-color: #0e194a;
+  color: white;
+  margin-bottom: 20px;
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+  text-align: center;
+}
+.service-images img{
+  width: 100%;
+  height: 311px;
+  border-top-left-radius: 8px; 
+  border-top-right-radius: 8px;
+}
+.service-content img{
+  background-color: white;
+  padding: 20px;
+  margin-top: -40px;
+}
+.service-content h4{
+  font-family: "Poppins", sans-serif;
+  font-size: 22px;
+  padding-top: 20px;
+}
+.service-content p{
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+  margin: 0;
+  padding: 10px 35px;
+}
+.service-btn{
+  padding-bottom: 40px;
+}
+.service-btn a{
+  display: flex;
+  justify-content: center;
+  color: white;
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+}
+/* ----------------------------------4 page(industrial-commercial)--------------------------------------------- */
+.machinary .machine-images {
+    position: relative;
+}
+
+.machine-images img {
+    width: 100%;
+    height: 534px;
+}
+
+.machine-industrial-overlay {
+    position: absolute;
+    color: white;
+    bottom: 10%;
+    left: 20%;
+}
+
+.machine-industrial-overlay h5 {
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-size: 30px;
+    text-transform: uppercase;
+}
+
+.machine-industrial-overlay p {
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+}
+
+.machine-commercial-overlay {
+    position: absolute;
+    color: white;
+    bottom: 10%;
+    right: 20%;
+}
+
+.machine-commercial-overlay h5 {
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-size: 30px;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.machine-commercial-overlay p {
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+    display: flex;
+    text-align: right;
+}
+.product-image {
+    background-image: url(./assets/images/product-bg-image.jpg);
+    width: 100%;
+    height: 394px;
+}
+
+.product-content {
+    color: white;
+}
+
+.product-content h2 {
+    font-family: "Poppins", sans-serif;
+    font-size: 73px;
+    text-transform: uppercase;
+    padding-top: 50px;
+}
+
+.product-content p {
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+}
+
+.product-details-image img {
+    height: 275px;
+    width: 100%;
+}
+
+.product-details-content {
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    padding-bottom: 20px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    text-decoration: none;
+
+}
+
+.product-details .col-lg-3 a {
+    text-decoration: none;
+}
+
+.product-details {
+    margin-top: -150px;
+}
+
+.product-details-content h4 {
+    color: #0e194a;
+    font-family: "Poppins", sans-serif;
+    font-size: 24px;
+    padding: 10px 0;
+    margin: 0;
+}
+
+.product-details-content span {
+    font-family: "Poppins", sans-serif;
+    font-size: 16.38px;
+    color: black;
+}
+
+.product-details-content strong {
+    margin-left: 10px;
+}
+
+.product-details-content {
+    padding: 20px 20px;
+}
+
+.product-details-content .star-Icon i {
+    color: #fcc91a;
+}
+/* --------------------------------------footer------------------------------------------- */
+.footer {
+    padding-top: 50px;
+}
+
+.footer-bottom {
+    background-color: #0e194a;
+    color: white;
+    padding: 10px 0;
+    margin-top: 50px;
+}
+
+.footer-icons {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.footer-icons i {
+    margin-left: 40px;
+}
+
+.footer-contact a {
+    text-decoration: none;
+    color: #131313;
+}
+
+.footer-contact i {
+    margin: 10px 20px 10px 0;
+}
+
+.footer-about h5 {
+    color: #0e194a;
+    font-family: "Poppins", sans-serif;
+    font-size: 31px;
+    text-transform: uppercase;
+    padding-bottom: 20px;
+    margin: 0;
+}
+
+.footer-services a {
+    color: #0e194a;
+    text-decoration: none;
+}
+
+.footer-services h5 {
+    color: #0e194a;
+    font-family: "Poppins", sans-serif;
+    font-size: 23.73px;
+    text-transform: uppercase;
+    padding-bottom: 20px;
+    margin: 0;
+}
+
+.footer-other-links h5 {
+    color: #0e194a;
+    font-family: "Poppins", sans-serif;
+    font-size: 23.73px;
+    text-transform: uppercase;
+    padding-bottom: 20px;
+    margin: 0;
+}
+
+.footer-contact h5 a {
+    color: #0e194a;
+    text-decoration: none;
+}
+
+.footer-contact h5 {
+    color: #0e194a;
+    font-family: "Poppins", sans-serif;
+    font-size: 23.73px;
+    text-transform: uppercase;
+    padding-bottom: 20px;
+    margin: 0;
+}
+
+.footer-other-links ul {
+    list-style: none;
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+    line-height: 35px;
+    padding: 0;
+    margin: 0;
+}
+
+.footer-services ul {
+    list-style: none;
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+    line-height: 35px;
+    padding: 0;
+    margin: 0;
+}
+
+.footer-contact span {
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+    line-height: 50px;
+}
+
+.footer-about p {
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+    margin: 0;
+}
+
+hr {
+    color: #0e194a;
+    opacity: 1.25;
+}
+
+/* ---------------------------------contact us page-------------------------------------------------- */
+.contactUs-page hr {
+    color: white;
+}
+
+.client-views {
+    background-color: white;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2);
+    height: 529px;
+    gap: 0;
+    padding-left: 50px;
+    padding-top: 30px
+}
+
+.contact-info {
+    background-color: #0e194a;
+    height: 600px;
+    padding: 50px 50px;
+}
+
+.contact-info a {
+    text-decoration: none;
+    color: white;
+}
+
+.contactUs-page {
+    padding: 100px 0;
+}
+
+.client-views h4 {
+    font-size: 24px;
+    font-family: "Open Sans", sans-serif;
+}
+
+.client-views h2 {
+    font-size: 48px;
+    font-family: "Open Sans", sans-serif;
+}
+
+.client-views hr {
+    width: 15%;
+    border: 2px solid #7f7f7f;
+}
+
+.client-views p {
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+    font-style: italic;
+    line-height: 30px;
+}
+
+.profile-card {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 15px 15px 0;
+}
+
+.profile-info-group {
+    display: flex;
+    align-items: center;
+}
+
+.profile-picture-container {
+    margin-right: 15px;
+}
+
+.text-info {
+    text-align: left;
+}
+
+.text-info h3 {
+    margin: 0;
+    font-family: "Poppins", sans-serif;
+    font-size: 30px;
+    color: #0e194a;
+}
+
+.text-info p {
+    margin: 0;
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+    color: #0e194a;
+
+}
+
+.contact-info h2 {
+    font-size: 58.58px;
+    font-family: "Poppins", sans-serif;
+
+}
+
+.contact-info p {
+    font-size: 14px;
+    font-family: "Poppins", sans-serif;
+    padding: 10px 0;
+
+}
+
+.contact-info .phoneInfo {
+    display: flex;
+    justify-content: flex-start;
+    padding: 20px 0;
+}
+
+.contact-info .phoneInfo span {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 30px;
+}
+
+.contact-info .phoneInfo i {
+    font-size: 50px;
+    display: flex;
+    align-items: center;
+    margin-right: 30px;
+}
+
+.emailInfo {
+    display: flex;
+    justify-content: flex-start;
+    padding: 20px 0;
+
+}
+
+.contact-info .emailInfo span {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 30px;
+}
+
+.contact-info .emailInfo i {
+    font-size: 50px;
+    display: flex;
+    align-items: center;
+    margin-right: 30px;
+}
+
+.locationInfo {
+    display: flex;
+    justify-content: flex-start;
+    padding: 20px 0;
+
+}
+
+.contact-info .locationInfo span {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 30px;
+}
+
+.contact-info .locationInfo i {
+    font-size: 50px;
+    display: flex;
+    align-items: center;
+    margin-right: 30px;
+}
+
+.title-content h1 {
+    font-family: "Poppins", sans-serif;
+    font-size: 73px;
+    text-transform: uppercase;
+}
+
+
+
+/* -----------------------------service Page --------------------------- */
+.Pagesbackground-image {
+    background-image: url('./assets/images/pages-bg-image.jpg');
+    height: 496px;
+    width: 100%;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+/* --------------------------service details------------------------------- */
+.section-details {
+    padding: 100px 0;
+}
+
+.section-image img {
+    width: 578px;
+    height: 522px;
+}
+
+.serviceSection-content {
+    padding: 0 35px 0 0;
+}
+
+.serviceSection-content h2 {
+    font-size: 58.63px;
+    color: #0e194a;
+
+}
+
+.serviceSection-content p {
+    font-family: "Poppins", sans-serif;
+    font-size: 18px;
+    line-height: 34px;
+}
+
+.section-paragraph p {
+    font-family: "Poppins", sans-serif;
+    font-size: 18px;
+    line-height: 34px;
+
+}
+
+/* ----------------------------product----------------------------- */
+.product-detailsPage {
+    padding: 100px 0;
+}
+
+.product-detailsPage-image {
+    margin: 10px 0;
+}
+
+.product-detailsPage-image img {
+    height: 275px;
+    width: 100%;
+}
+
+.product-detailsPage-content {
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    padding-bottom: 20px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+.product-detailsPage-content h4 {
+    color: #0e194a;
+    font-family: "Poppins", sans-serif;
+    font-size: 24px;
+    padding: 10px 0;
+    margin: 0;
+}
+
+.product-detailsPage-content span {
+    font-family: "Poppins", sans-serif;
+    font-size: 16.38px;
+}
+
+.product-detailsPage-content strong {
+    margin-left: 10px;
+}
+
+.product-detailsPage-content {
+    padding: 20px 20px;
+}
+
+/* -----------------------------product details--------------------------------- */
+.productDetail-image img {
+    width: 100%;
+    height: 744px;
+}
+
+.section-content {
+    padding: 100px 0;
+}
+
+.productDetails-content i {
+    font-size: 50px;
+    color: #fcc91a;
+    padding-bottom: 20px;
+}
+
+.productDetails-content span {
+    font-size: 48.86px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.productDetails-content h4 {
+    font-size: 58.63px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #0e194a;
+    font-weight: bolder;
+    padding: 10px 0;
+}
+
+.productDetails-content p {
+    font-size: 18px;
+    font-family: "Poppins", sans-serif;
+    line-height: 35px;
+
+}
+
+.productDetails-content .star-icon {
+    padding: 0;
+}
+
+.order-btn {
+    width: 30%;
+    padding: 20px 20px;
+    border-radius: 50px;
+    background-color: #0e194a;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+
+}
+
+.order-btn i {
+    font-size: 20px;
+    color: white;
+    padding-bottom: 0;
+}
+
+.order-btn a {
+    text-decoration: none;
+    color: white;
+}
+
+.offers p {
+    font-size: 14px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 0;
+    color: #3f3f3f;
+}
+
+.offers {
+    padding: 30px 0;
+}
+
+.card-icons img {
+    margin: 0 5px;
+}
+
+.card-icons {
+    padding: 10px 0;
+}
+
+.quantity {
+    margin-bottom: 40px;
+}
+
+.quantity label {
+    margin-bottom: 10px;
+}
+
+.quantityButton {
+    border: 1px dashed black;
+    width: 23%;
+}
+
+.quantity-button {
+    background-color: transparent;
+    color: #555;
+    border: none;
+    padding: 10px 15px;
+    font-size: 20px;
+}
+
+.quantity-button:hover {
+    background-color: #f0f0f0;
+}
+
+.quantity-input {
+    width: 50px;
+    text-align: center;
+    border: none;
+    font-size: 1.25rem;
+    font-weight: 500;
+}
+
+.productDetails-b-row {
+    border-bottom: 1px solid black;
+}
+
+.productDetails-b-row button {
+    margin-right: 5%;
+    margin-bottom: 10px;
+    border: none;
+    background-color: white;
+    font-size: 24px;
+
+}
+
+.productDetails-b-row button:hover {
+    margin-right: 5%;
+    margin-bottom: 10px;
+    border: none;
+    background-color: white;
+    font-size: 24px;
+    border-bottom: 3px solid black;
+}
+
+.productDetails-b-row hr {
+    margin: 0;
+}
+
+.nav-link {
+    background-color: white;
+    color: black;
+}
+
+.nav {
+    color: black;
+}
+
+.nav-item {
+    margin-right: 5%;
+    font-size: 24px;
+}
+
+.nav-tabs .nav-link {
+    border: none;
+    margin-bottom: 0;
+}
+
+.tab-content {
+    padding: 30px 0;
+}
+
+.tab-pane {
+    font-size: 18px;
+}
+
+.nav-tabs .nav-link.active {
+    border-bottom: 3px solid black;
+}
+
+/* ------------------------CONTACT US----------------------------- */
+
+
+/* -----------------your details form ------------------- */
+.contact-form {
+    background-color: white;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2);
+    height: 477px;
+    width: 530px;
+    gap: 0;
+    padding: 30px 30px;
+}
+
+.contactUs-page {
+    padding: 100px 0;
+}
+
+.contact-form button {
+    color: white;
+    background-color: #0e194a;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+    padding: 20px 0;
+    border-radius: 30px;
+}
+
+.contact-form h3 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 30.61px;
+    color: #0e194a;
+    padding-bottom: 10px;
+}
+
+.contact-form .form-group {
+    font-size: 14px;
+    font-family: "Open Sans", sans-serif;
+}
+
+.contact-form .form-control {
+    width: 100%;
+    padding: 15px 15px;
+}
+
+.contact-form .col input {
+    width: 95%;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2);
+    border: none;
+}
+
+.contact-form .col {
+    padding-right: 0;
+    font-size: 14px;
+    font-family: "Open Sans", sans-serif;
+}
+
+.contact-form .form-group input {
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2);
+    border: none;
+
+}
+
+.contact-form .form-group textarea {
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2);
+    border: none;
+}
+
+/* -----------------------contact icons-------------------- */
+.phone-Info h5 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 30px;
+    padding-top: 10px;
+}
+
+.phone-Info span {
+    font-family: "Poppins", sans-serif;
+    font-size: 14px;
+}
+
+.phone-Info img {
+    height: 80px;
+    width: 96px;
+    object-fit: contain;
+
+}
+
+.email-Info img {
+    height: 80px;
+    width: 96px;
+    object-fit: contain;
+
+}
+
+.email-Info h5 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 30px;
+    padding-top: 10px;
+
+}
+
+.email-Info span {
+    font-family: "Poppins", sans-serif;
+    font-size: 14px;
+}
+
+.location-Info img {
+    height: 80px;
+    width: 96px;
+    object-fit: contain;
+
+}
+
+.location-Info h5 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 30px;
+    padding-top: 10px;
+}
+
+.location-Info span {
+    font-family: "Poppins", sans-serif;
+    font-size: 14px;
+}
+
+.contact-usIcons {
+    padding-top: 100px;
+}
+
+/* ---------------------------checkout--------------------------- */
+
+/* ---------------------center--your order box --------------------------- */
+.your-order {
+    height: 765px;
+    width: 495px;
+    background-color: white;
+    border: 1px solid black;
+    margin-left: 10px;
+    padding: 20px 40px;
+    font-size: 13.69;
+}
+
+.checkout-details {
+    padding: 100px 0;
+
+}
+
+.place-order-button {
+    width: 100%;
+    padding: 10px 0;
+    background-color: #0e194a;
+    color: white;
+    border: none;
+    font-family: "OpenSans", sans-serif;
+    margin-top: 10px;
+}
+
+.your-order h3 {
+    font-size: 18.26px;
+    font-family: "OpenSans", sans-serif;
+    color: #0e194a;
+}
+
+.your-order h4 {
+    font-size: 18.26px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #0e194a;
+    font-weight: bold;
+    padding-top: 20px
+}
+
+.your-order h2 {
+    font-size: 22.82px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #0e194a;
+    padding-top: 20px
+}
+
+.payment-method span {
+    margin-left: 10px;
+}
+
+.payment-method {
+    line-height: 30px;
+}
+
+.shipping-option span {
+    margin-left: 10px;
+}
+
+.shipping-option {
+    line-height: 30px;
+}
+
+.total {
+    display: flex;
+    justify-content: space-between;
+}
+
+.product-item {
+    display: flex;
+    justify-content: space-between;
+    line-height: 30px;
+
+}
+
+.your-order hr {
+    margin: 10px;
+}
+
+.payment-method input[type="radio"] {
+    background-color: #0e194a;
+    border-radius: 50%;
+    appearance: none;
+    width: 20px;
+    height: 20px;
+}
+
+.payment-method input[type="radio"]:checked {
+    border: 6px solid #0e194a;
+    background-color: white;
+}
+
+
+.payment-method label {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    cursor: pointer;
+}
+
+.shipping-option input[type="radio"] {
+    background-color: #0e194a;
+    border-radius: 50%;
+    appearance: none;
+    width: 20px;
+    height: 20px;
+}
+
+.shipping-option input[type="radio"]:checked {
+    border: 6px solid #0e194a;
+    background-color: white;
+}
+
+
+.shipping-option label {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    cursor: pointer;
+}
+
+/* ------------------center--billing info box --------------------------- */
+.billing-details {
+    height: 670px;
+    width: 650px;
+    background-color: #0e194a;
+    padding: 30px 45px;
+}
+
+.billing-details h2 {
+    font-size: 22.82px;
+    color: white;
+}
+
+.billing-details form {
+    padding: 30px 0;
+}
+
+.billing-details .form-control {
+    padding: 10px 40px;
+    border-radius: 0;
+    line-height: 20px;
+    font-family: "OpenSans", sans-serif;
+    font-size: 13.69px;
+}
+
+
+/* --------------------------cart------------------------------ */
+
+.product-content {
+    color: white;
+    text-align: center;
+
+}
+
+.product-content h2 {
+    font-family: "Poppins", sans-serif;
+    font-size: 73px;
+    display: flex;
+    justify-content: center;
+    text-transform: uppercase;
+    padding-top: 50px;
+}
+
+.product-content p {
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.product-detailsContent img {
+    height: 275px;
+    width: 100%;
+}
+
+.product-Details {
+    padding: 100px 0;
+}
+
+.product-detailsContent h4 {
+    padding: 10px 0 10px 20px;
+    color: #0e194a;
+    font-family: "Poppins", sans-serif;
+    font-size: 24px;
+    margin: 0;
+}
+
+.product-detailsContent span {
+    font-family: "Poppins", sans-serif;
+    font-size: 20px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+}
+
+.star-icon {
+    padding: 20px 0 0 20px;
+}
+
+.star-icon i {
+    color: #fcc91a;
+}
+
+.section-container {
+    margin-top: 80px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.cart-info img {
+    width: 88px;
+    height: 97px;
+    margin-right: 10px;
+}
+
+th {
+    align-items: left;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 36px;
+    color: #0e194a;
+    border-bottom: 1px solid black;
+}
+
+td {
+    align-items: left;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 30px;
+    border-bottom: 1px solid black;
+    padding: 20px 0;
+
+}
+
+td input {
+    width: 50px;
+    height: 30px;
+    padding: 5px;
+}
+
+.cart-btn {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 0;
+}
+
+.cart-btn a {
+    text-decoration: none;
+}
+
+.continue-shipping a {
+    padding: 10px 20px;
+    color: #e0e0e0;
+    background-color: #0e194a;
+    font-size: 18px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+}
+
+.update-cart {
+    display: flex;
+    justify-content: space-between;
+}
+
+.update a {
+    color: #0e194a;
+}
+
+.update {
+    background-color: white;
+    border: 1px solid black;
+    font-size: 18px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    padding: 10px 20px;
+
+}
+
+.checkoutcart a {
+    color: #0e194a;
+}
+
+.checkoutcart {
+    background-color: white;
+    border: 1px solid black;
+    font-size: 18px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    padding: 10px 20px;
+    margin-right: 20px;
+
+}
+
+.quantity-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 190px;
+    height: 46px;
+    background-color: #0e194a;
+}
+
+.quantity-btn .button-symbol {
+    width: 50px;
+    font-size: 25px;
+    color: #ffffff;
+}
+
+.quantity-btn .quantity-number {
+    width: 40px;
+    font-size: 24px;
+    font-weight: bold;
+    color: #ffffff;
+}
+.navbar{
+    display: none;
+}
+
+
+@media only screen and (min-width: 0px) and (max-width: 576px) {
+    .header-top-bar h5 {
+        font-size: 20px;
+        
+    }
+    .banner{
+        height: 80vh;
+    }
+
+    .header-top-bar .email {
+        font-size: 15.09px;
+    }
+
+    .nav-bar .menu ul {
+        font-size: 16px;
+    }
+
+    .nav-bar .phone-no span {
+        font-size: 15px;
+    }
+
+    .nav-bar .phone-no i {
+        font-size: 15px;
+    }
+
+    .banner-content h1 {
+        font-size: 35px;
+    }
+
+    .banner-content p {
+        font-size: 10px;
+    }
+
+    .learn-more-btn a {
+        font-size: 14px;
+    }
+
+    .catagory-content h4 {
+        font-size: 20px;
+    }
+
+    .catagory-content {
+        margin: 20px;
+    }
+
+    .catagory-content p {
+        font-size: 15px;
+    }
+
+    .catagory-content img {
+        height: 55px;
+        width: 55px;
+    }
+
+    .about-us-imag1 img {
+        width: 100%;
+    }
+
+    .about-us-imag2 img {
+        width: 100%;
+
+    }
+
+    .about-us-imagesContainer {
+        gap: 40px;
+    }
+
+    .about-us {
+        margin-left: 10px;
+        padding: 50px 0;
+    }
+
+    .play-btn {
+        top: 41%;
+        left: 40%
+    }
+
+    .play-btn img {
+        width: 100%;
+    }
+
+    .about-us-content h2 {
+        font-size: 30px;
+    }
+
+    .about-us-content p {
+        font-size: 15px;
+        line-height: 25px;
+    }
+
+    .about-us-content span {
+        font-size: 10px;
+    }
+
+    .machine-images img {
+        height: 470px;
+    }
+
+    .machine-industrial-overlay h5 {
+        font-size: 25px;
+    }
+
+    .machine-industrial-overlay p {
+        font-size: 15px;
+    }
+
+    .machine-commercial-overlay h5 {
+        font-size: 25px;
+    }
+
+    .machine-commercial-overlay p {
+        font-size: 15px;
+    }
+
+    .service-title h2 {
+        font-size: 40px;
+    }
+
+    .service-title p {
+        font-size: 15px;
+    }
+
+    .service-box {
+        margin: 0 20px;
+    }
+
+    .service-images img {
+        height: 210px;
+    }
+
+    .service-content img {
+        padding: 15px;
+    }
+
+    .service-content h4 {
+        font-size: 20px;
+        padding-top: 13px;
+        margin: 0;
+    }
+
+    .service-content p {
+        font-size: 15px;
+        padding: 5px 10px;
+    }
+
+    .service-btn {
+        padding-bottom: 10px;
+    }
+
+    .service-btn a {
+        font-size: 15px;
+    }
+
+    .product-content h2 {
+        font-size: 40px;
+    }
+
+    .product-content p {
+        font-size: 15px;
+    }
+
+    .product-image {
+        height: 340px;
+    }
+
+    .product-details-image {
+        margin: 0 20px 20px 20px;
+    }
+
+    .product-details-image img {
+        height: 200px;
+    }
+
+    .product-details {
+        margin-top: -116px;
+    }
+
+    .product-details-content {
+        padding: 10px 10px 10px 10px;
+        
+    }
+
+    .product-details-content .star-Icon i {
+        font-size: 20px;
+    }
+
+    .product-details-content h4 {
+        font-size: 20px;
+        padding: 0;
+    }
+
+    .product-details-content span {
+        font-size: 16.38px;
+    }
+
+    .client-views p {
+        font-size: 15px;
+        line-height: 27px;
+    }
+
+    .text-info h3 {
+        font-size: 19px;
+    }
+
+    .text-info p {
+        font-size: 10px;
+    }
+
+    .profile-card {
+        padding: 0;
+    }
+
+    .client-views p {
+        font-size: 12px;
+    }
+
+    .contactUs-page {
+        padding: 50px 0;
+        margin: 0 10px;
+    }
+
+    .client-views {
+        margin: 0 10px;
+        padding: 15px 20px 0 20px;
+    }
+
+    .contact-info {
+        padding: 25px 25px;
+        margin: 0 10px;
+        height: 520px;
+    }
+
+    .contact-info h2 {
+        font-size: 46.58px;
+    }
+
+    .contact-info .phoneInfo span {
+        font-size: 23px;
+    }
+
+    .contact-info .emailInfo span {
+        font-size: 23px;
+    }
+
+    .contact-info .locationInfo span {
+        font-size: 23px;
+    }
+
+    .footer-about {
+        text-align: left;
+    }
+
+    .footer-other-links {
+        text-align: left;
+    } 
+
+    .footer-contact {
+        text-align: left;
+    }
+    .footer-contact i {
+    margin: 5px 5px 5px 0;
+    }
+
+    .footer-contact h5 {
+        padding-bottom: 0px;
+        padding-top: 10px;
+    }
+
+    .footer-other-links h5 {
+        padding-bottom: 0px;
+        padding-top: 10px;
+    }
+
+    .footer-services h5 {
+        padding-bottom: 0px;
+        font-size: 19.73px;
+        padding-top: 10px;
+    }
+
+    .footer-about h5 {
+        padding-bottom: 0px;
+        font-size: 20px;
+    }
+    .footer-about p {
+        font-size: 11px;
+    }
+
+    .footer-contact span {
+        line-height: 30px;
+        font-size: 12px;
+    }
+    .title-content h1 {
+        font-size: 38px;
+    }
+    .section-content {
+        padding: 50px 0;
+    }
+    .productDetails-content .star-icon {
+        font-size: 30px;
+    }
+    .productDetails-content span {
+        font-size: 46.86px;
+    }
+    .productDetails-content h4 {
+        font-size: 37.63px;
+    }
+    .productDetails-content p {
+        font-size: 12px;
+    }
+    .quantityButton {
+        width: 42%;
+    }
+    .order-btn {
+        width: 48%;
+        padding: 15px 15px;
+    }
+    .productDetail-image img {
+        height: 450px;
+    }
+    .nav-item {
+        font-size: 15px;
+    }
+    .tab-pane {
+        font-size: 13px;
+    }
+    .footer {
+        padding-top: 0;
+    }
+    .footer-services ul {
+        font-size: 12px;
+        line-height: 23px;
+    }
+    .footer-other-links ul {
+        font-size: 12px;
+        line-height: 23px;
+    }
+    .serviceSection-content h2 {
+        font-size: 38.63px;
+    }
+    .section-image img {
+        height: 410px;
+        width: 100%;
+    }
+    .section-paragraph p {
+        font-size: 15px;
+        line-height: 25px;
+    }
+    .navbar{
+        display: block;
+        background-color: #0e194a;
+    }
+    .navbar-toggler {
+        color: white;
+        background-image: white;
+        background-color: #e0e0e0;
+    }
+    .nav-bar{
+        display: none;
+    }
+    .nav-link {
+        background-color: #0e194a;
+        color: white;
+        margin-top: 5px;
+    }
+    .navbar-nav .nav-link.active{
+        color: white;
+        font-weight: bold;
+    }
+    .nav-link:focus, .nav-link:hover {
+    color: white;
+    
+    }
+    .dropdown-menu {
+    position: absolute;
+    }
+    .dropdown:hover .dropdown-menu {
+    display: block;
+    }
+
+
+    /* -----------------------footer----------------------- */
+    .footer-contact h5 {
+        font-size: 19.73px;
+    }
+    .footer-bottom {
+        margin-top: 10px;
+    }
+    .footer-icons i {
+        margin-left: 25px;
+    }
+    .footer-rights span{
+        font-size: 12px;
+    }
+
+/* ---------------------product detail----------------------- */
+    .product-detailsPage-image {
+        margin: 0 20px 20px 20px;
+    }
+
+    .product-detailsPage-image img {
+        height: 200px;
+    }
+
+    .product-detailsPage-content {
+        padding: 10px 10px 10px 10px;
+    }
+
+    .product-detailsPage-content .star-icon i {
+        font-size: 20px;
+    }
+    .product-detailsPage-content .star-icon{
+        padding: 0;
+    }
+
+    .product-detailsPage-content h4 {
+        font-size: 20px;
+        padding: 0;
+    }
+
+    .product-detailsPage-content span {
+        font-size: 16.38px;
+    }
+/* ------------------------------contact us page------------------------ */
+    .map iframe{
+        width: 100%;
+        height: 500px;
+    } 
+    .contact-form {
+        width: 100%;
+    }
+
+/* ----------------------checkout----------------------------- */
+    .billing-details {
+        width: 100%;
+        height: 520px;
+    }
+    .billing-details h2 {
+        padding: 30px 30px;
+    }
+    .your-order {
+        height: 615px;
+        width: 100%;
+        padding: 5px 25px;
+        margin-left: 0;
+    }
+    .your-order h2{
+        padding-top: 0;
+    }
+    .your-order h4{
+        padding-top: 5px;
+    }
+    .product-item {
+        line-height: 25px;
+    }
+    .shipping-option{
+        line-height: 25px;
+    }
+    .payment-method-desc{
+        font-size: 12px;
+    }
+    .payment-method {
+        line-height: 25px;
+    }
+    .billing-details form {
+        padding: 20px 0;
+    }
+    .billing-details .form-control {
+        line-height: 12px;
+    }
+    .place-order-button {
+        margin-top: 0;
+    }
+    .billing-details .form-control {
+        padding: 5px 40px;
+    }
+    .contact-info .emailInfo i {
+    font-size: 35px;
+    }
+    .contact-info .phoneInfo i {
+    font-size: 35px;
+    }
+    .contact-info .locationInfo i {
+    font-size: 35px;
+    }
+    th {
+    font-size: 19px;
+    }
+    td {
+    font-size: 14px;
+    }
+    .quantity-btn {
+    width: 77px;
+    height: 35px;
+    }
+    .quantity-btn .quantity-number {
+    width: 25px;
+    font-size: 20px;
+    }
+    .quantity-btn .button-symbol {
+    width: 25px;
+    font-size: 20px;
+    }
+    .continue-shipping a {
+    font-size: 10px;
+    padding: 10px 10px;
+    }
+    .checkoutcart {
+    font-size: 10px;
+    padding: 10px 10px;
+    margin-right: 10px;
+    }
+    .update {
+    font-size: 10px;
+    }
+    .product-detailsContent .star-icon {
+    padding: 0;
+    }
+    .product-detailsContent h4 {
+    padding: 5px 0 5px 0;
+    }
+    .product-detailsContent span {
+    padding-left: 0;
+    padding-bottom: 0;
+    }
+    .product-detailsContent{
+        margin-bottom: 20px;
+    }
+    .product-Details {
+    padding: 50px 0;
+    }
+    .cart-info img {
+        width: 60px;
+        height: 70px;
+        margin-right: 5px;
+    }
+}
+
+
+
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+    .play-btn {
+        left: 42%
+    } 
+    .service-images img {
+        height: 185px;
+    }
+
+    .service-content img {
+        padding: 10px;
+    }
+
+    .service-content p {
+        font-size: 12px;
+        padding: 0;
+    }
+
+    .service-btn {
+        padding-bottom: 10px;
+    }
+
+    .service-btn a {
+        font-size: 15px;
+    }
+
+    .service-content h4 {
+        font-size: 18px;
+    }
+
+    .product-details {
+        margin-top: -120px;
+    }
+
+    .product-details-image img {
+        height: 200px;
+    }
+
+    .product-details-content {
+        padding: 10px 10px;
+    }
+
+    .product-details-content h4 {
+        font-size: 14px;
+        padding: 0;
+    }
+
+    .product-details-content span {
+        font-size: 14.38px;
+    }
+
+    .client-views {
+        padding-left: 30px;
+        padding-top: 20px;
+        height: 480px
+    }
+
+    .contact-info {
+        padding: 30px 30px;
+        height: 515px;
+    }
+
+    .client-views h4 {
+        font-size: 20px;
+    }
+
+    .client-views h2 {
+        font-size: 40px;
+    }
+
+    .client-views hr {
+        width: 15%;
+        border: 2px solid #7f7f7f;
+    }
+
+    .client-views p {
+        font-size: 15px;
+        line-height: 25px;
+    }
+
+    .profile-card {
+        padding: 0;
+    }
+
+    .profile-picture-container {
+        margin-right: 15px;
+    }
+
+    .text-info h3 {
+        font-size: 25px;
+    }
+
+    .text-info p {
+        font-size: 15px;
+    }
+
+    .contact-info h2 {
+        font-size: 40.58px;
+
+    }
+
+    .contact-info .phoneInfo span {
+        font-size: 25px;
+    }
+
+    .contact-info .phoneInfo i {
+        font-size: 30px;
+    }
+
+    .contact-info .emailInfo span {
+        font-size: 25px;
+    }
+
+    .contact-info .emailInfo i {
+        font-size: 30px;
+    }
+
+    .contact-info .locationInfo span {
+        font-size: 25px;
+    }
+
+    .contact-info .locationInfo i {
+        font-size: 30px;
+    }
+
+    .footer {
+        padding-top: 0;
+    }
+
+    .footer-bottom {
+        margin-top: 30px;
+    }
+
+    .footer-contact i {
+        margin: 10px 15px 10px 0;
+    }
+
+    .footer-about h5 {
+        font-size: 16px;
+        padding-bottom: 10px;
+    }
+
+    .footer-services h5 {
+        font-size: 14.73px;
+        padding-bottom: 20px;
+    }
+
+    .footer-other-links h5 {
+        font-size: 14.73px;
+        padding-bottom: 20px;
+    }
+
+    .footer-contact h5 {
+        font-size: 14.73px;
+        padding-bottom: 20px;
+    }
+
+    .footer-other-links ul {
+        font-size: 14px;
+        line-height: 28px;
+    }
+
+    .footer-services ul {
+        font-size: 14px;
+        line-height: 28px;
+    }
+
+    .footer-contact span {
+        font-size: 13px;
+        line-height: 35px;
+    }
+
+    .footer-about p {
+        font-size: 14px;
+    }
+
+    .banner-content h1 {
+        font-size: 60px;
+    }
+
+    .banner-content p {
+        font-size: 15px;
+    }
+
+    .about-us-imagesContainer {
+        justify-content: space-evenly;
+    }
+
+    .about-us-content {
+        padding-top: 20px;
+    }
+
+    .quotes-icon img {
+        height: 50px;
+        width: 80px;
+        margin-right: 15px;
+    }
+    .productDetails-content span {
+        font-size: 40.86px;
+    }
+    .productDetails-content h4 {
+        font-size: 36.63px;
+        padding: 0;
+    }
+    .quantity-button {
+    padding: 5px 15px;
+    }
+    .productDetails-content p {
+        font-size: 15px;
+        line-height: 30px;
+    }
+    .productDetails-content .star-icon I {
+        font-size: 40px;
+        padding-bottom: 5px;
+    }
+    
+    .quantityButton {
+        border: 1px dashed black;
+        width: 43%;
+    }
+    .order-btn {
+        width: 50%;
+    }
+    .nav-item {
+    margin-right: 3%;
+    font-size: 15px;
+    }
+    .tab-pane {
+        font-size: 17px;
+    }
+    .serviceSection-content h2 {
+        font-size: 35.63px;
+    }
+    .serviceSection-content p {
+        font-size: 14px;
+        line-height: 28px;
+    }
+    .section-paragraph p{
+        font-size: 14px;
+        line-height: 28px;
+    }
+    .product-detailsPage-image {
+        margin: 0 0px 20px 0px;
+    }
+
+    .product-detailsPage-image img {
+        height: 200px;
+        width: 100%;
+    }
+
+    .product-detailsPage-content {
+        padding: 15px 15px 15px 15px;
+    }
+
+    .product-detailsPage-content .star-icon i {
+        font-size: 17px;
+    }
+    .product-detailsPage-content .star-icon{
+        padding: 0;
+    }
+
+    .product-detailsPage-content h4 {
+        font-size: 13px;
+        padding: 0;
+    }
+
+    .product-detailsPage-content span {
+        font-size: 13.38px;
+    }
+    .product-detailsPage {
+        padding: 50px 0;
+    }
+    .map iframe{
+        width: 480px;
+        height: 535px;
+    } 
+    .contact-form {
+        width: 100%;
+    }
+    .billing-details {
+        width: 350px;
+        height: 615px;
+    }
+    .billing-details h2 {
+        padding: 30px 30px;
+    }
+    .your-order {
+        height: 650px;
+        width: 100%;
+        padding: 20px 25px
+    }
+    .your-order h2 {
+        padding: 0;
+    }
+    .product-item {
+        line-height: 25px;
+    }
+    .shipping-option {
+        line-height: 25px;
+    }
+    .your-order h4 {
+        padding-top: 10px;
+    }
+    .payment-method {
+        line-height: 25px;
+    }
+    .billing-details .form-control {
+        line-height: 15px;
+    }
+    .billing-details .form-control {
+        padding: 10px 25px;
+    }
+    .payment-method-desc{
+        font-size: 12px;
+    }
+    .place-order-button {
+        margin: 0;
+    }
+    .product-Details {
+    padding: 50px 0;
+    }
+    .product-detailsContent .star-icon {
+        padding: 5px 0 0 0;
+    }
+    .product-detailsContent h4 {
+    padding: 5px 0 5px 0;
+    font-size: 15px;
+    }
+    .product-detailsContent span {
+    font-size: 15px;
+    padding-left: 0;
+    padding-bottom: 0;
+    }
+    .productDetail-image img {
+    height: 565px;
+    }
+    .offers {
+    padding: 5px 0;
+    }
+    .quantity {
+    margin-bottom: 15px;
+    }
+    th {
+    font-size: 24px;
+    }
+    td {
+    font-size: 19px;
+    }
+    .quantity-btn {
+    width: 110px;
+    height: 41px;
+    }
+    .quantity-btn .button-symbol {
+    width: 25px;
+    }
+    .continue-shipping a {
+    font-size: 14px;
+    }
+    .checkoutcart {
+    font-size: 14px;
+    }
+    .update {
+    font-size: 14px;
+    }
+    .product-detailsContent .star-icon {
+    padding: 0;
+    }
+    .product-detailsContent h4 {
+    padding: 5px 0 5px 0;
+    }
+    .product-detailsContent span {
+    padding-left: 0;
+    padding-bottom: 0;
+    }
+    .product-detailsContent{
+        margin-bottom: 20px;
+    }
+    .product-Details {
+    padding: 50px 0;
+    }
+}
+
+@media only screen and (min-width: 576px) and (max-width: 768px) {
+/* -------------------header---------------------------- */
+    .header-top-bar h5 {
+        font-size: 25px;
+    }
+
+    .header-top-bar .email {
+        font-size: 16.09px;
+    }
+
+    .nav-bar .phone-no span {
+        font-size: 15px;
+    }
+
+    .nav-bar .menu ul {
+        font-size: 15px;
+    }
+
+
+/* -------------------banner---------------------------- */
+    .banner-content h1 {
+        font-size: 55px;
+    }
+
+    .banner-content p {
+        font-size: 14px;
+    }
+
+    .learn-more-btn a {
+        font-size: 15px;
+    }
+
+/* --------------------content-------------------------------- */
+
+    .catagory-content p {
+        font-size: 10px;
+    }
+
+    .catagory-content h4 {
+        font-size: 17px;
+    }
+
+    .catagory-content img {
+        height: 55px;
+        width: 55px;
+    }
+
+/* -------------------------aboutus---------------------------- */
+
+    .about-us-imag1 img {
+        width: 100%;
+    }
+
+    .about-us-imag2 img {
+        width: 100%;
+    }
+
+    .about-us-imagesContainer {
+        gap: 50px;
+    }
+
+    .play-btn {
+        top: 41%;
+        left: 40%
+    }
+
+    .about-us-content h2 {
+        font-size: 45px;
+    }
+
+    .about-us-content p {
+        font-size: 14px;
+        line-height: 25px;
+    }
+    .about-us {
+        padding: 70px 0;
+    }
+
+/* ---------------------indusrial------------------------- */
+    .machine-industrial-overlay h5 {
+        font-size: 25px;
+    }
+
+    .machine-industrial-overlay p {
+        font-size: 14px;
+    }
+
+    .machine-commercial-overlay h5 {
+        font-size: 25px;
+    }
+
+    .machine-commercial-overlay p {
+        font-size: 14px;
+    }
+
+    .machine-images img {
+        height: 470px;
+    }
+
+    /* ------------------------------service-------------------------- */
+    .service-title h2 {
+        font-size: 45px;
+    }
+
+    .service-title p {
+        font-size: 14px;
+    }
+
+    .service-images img {
+        height: 180px;
+    }
+
+    .service-content img {
+        padding: 10px;
+    }
+
+    .service-content h4 {
+        font-size: 15px;
+        padding-top: 10px;
+    }
+
+    .service-content {
+        padding: 5px;
+    }
+
+    .service-content p {
+        padding: 0;
+        font-size: 10px;
+    }
+
+    .service-btn {
+        padding-bottom: 0;
+    }
+
+    .service-btn a {
+        font-size: 14px;
+    }
+
+    /* --------------------product----------------------- */
+    .product-content h2 {
+        font-size: 45px;
+    }
+
+    .product-content p {
+        font-size: 14px;
+    }
+
+    .product-details {
+        margin-top: -125px;
+    }
+
+    .product-details-image img {
+        height: 195px;
+    }
+
+    .product-details-content {
+        padding: 5px 10px;
+        margin-bottom: 20px;
+
+    }
+
+    .product-details-content .star-Icon i {
+        font-size: 10px;
+    }
+
+    .product-details-content h4 {
+        font-size: 9px;
+        padding: 0;
+    }
+
+    .product-details-content span {
+        font-size: 9.38px;
+    }
+
+    .product-image {
+        height: 329px;
+    }
+
+/* -----------------------contact us page------------------------- */
+    .client-views h4 {
+        font-size: 20px;
+    }
+
+    .client-views h2 {
+        font-size: 35px;
+    }
+
+    .client-views hr {
+        margin: 5px;
+    }
+
+    .client-views p {
+        font-size: 14px;
+        line-height: 22px;
+    }
+
+    .client-views {
+        padding-left: 30px;
+        padding-top: 10px;
+        height: 435px;
+    }
+
+    .text-info h3 {
+        font-size: 15px;
+    }
+
+    .text-info p {
+        font-size: 10px;
+    }
+
+    .quotes-icon img {
+        height: 55px;
+        width: 60px;
+    }
+
+    .profile-picture-container img {
+        height: 60px;
+        width: 60px;
+    }
+
+    .contact-info {
+        background-color: #0e194a;
+        height: 470px;
+        padding: 30px 30px;
+    }
+
+    .contact-info h2 {
+        font-size: 35.58px;
+    }
+
+    .contact-info p {
+        font-size: 12px;
+        padding: 5px 0;
+    }
+
+    .contact-info .phoneInfo i {
+        font-size: 30px;
+        margin-right: 25px;
+    }
+
+    .contact-info .phoneInfo {
+        padding: 10px 0;
+    }
+
+    .contact-info .phoneInfo span {
+        font-size: 18px;
+    }
+
+    .contact-info .emailInfo i {
+        font-size: 30px;
+        margin-right: 25px;
+    }
+
+    .contact-info .emailInfo span {
+        font-size: 18px;
+    }
+
+    .contact-info .locationInfo i {
+        font-size: 30px;
+        margin-right: 25px;
+    }
+
+    .contact-info .locationInfo span {
+        font-size: 18px;
+    }
+
+    .profile-card {
+        padding: 0 15px 0 0;
+    }
+    .contactUs-page {
+        padding: 60px 0;
+    }
+
+    /* ----------------------footer--------------------------- */
+    .footer-about h5 {
+        font-size: 12px;
+        padding-bottom: 5px;
+    }
+
+    .footer-about p {
+        font-size: 10px;
+    }
+
+    .footer-services h5 {
+        font-size: 10.73px;
+        padding-bottom: 5px;
+    }
+
+    .footer-services ul {
+        font-size: 10px;
+        line-height: 25px;
+    }
+
+    .footer-other-links h5 {
+        font-size: 10.73px;
+        padding-bottom: 5px;
+    }
+
+    .footer-other-links ul {
+        font-size: 10px;
+        line-height: 25px;
+    }
+
+    .footer-contact h5 {
+        font-size: 10.73px;
+        padding-bottom: 5px;
+    }
+
+    .footer-contact i {
+        margin: 10px 2px 10px 0;
+        font-size: 15px;
+    }
+
+    .footer-contact span {
+        font-family: "Poppins", sans-serif;
+        font-size: 10px;
+        line-height: 30px;
+    }
+
+/* -----------------------footer bottom --------------------------- */
+
+    .footer {
+        padding-top: 10px;
+    }
+
+    .footer-bottom {
+        margin-top: 30px;
+    }
+
+    .footer-rights {
+        font-size: 14px;
+    }
+
+    .footer-icons i {
+        margin-left: 20px;
+    }
+
+/* ----------------------otherpages title----------------------- */
+    .title-content h1 {
+        font-size: 55px;
+    }
+
+/* --------------------product detail-------------------------- */
+    .order-btn {
+        width: 33%;
+    }
+    .quantityButton {
+        width: 28%;
+    }
+    .productDetails-content h4 {
+        font-size: 50.63px;
+    }
+    .productDetails-content span {
+    font-size: 43.86px;
+    }
+    .nav-item {
+        margin-right: 1%;
+        font-size: 12px;
+    }
+    .tab-pane {
+        font-size: 14px;
+    }
+    .productDetail-image img {
+        height: 485px;
+    }
+    .productDetails-content p {
+        font-size: 14px;
+    }
+
+    /* -------------------------contus page------------------------ */
+    .section-content {
+        padding: 50px 0;
+    }
+    .section-image img {
+        width: 280px;
+        height: 456px;
+    }
+    .serviceSection-content h2 {
+        font-size: 25.63px;
+    }
+    .serviceSection-content p {
+        font-size: 12px;
+        line-height: 18px;
+    }
+    .section-paragraph p{
+        font-size: 12px;
+        line-height: 18px;
+    }
+    .map iframe{
+        width: 100%;
+        height: 500px;
+    } 
+    .billing-details {
+        width: 100%;
+        height: 650px;
+    }
+    .billing-details h2 {
+        padding: 30px 30px;
+    }
+    .your-order {
+        height: 650px;
+        width: 100%;
+        padding: 20px 25px;
+        margin-left: 0;
+    }
+    .your-order h2{
+        padding-top: 0;
+    }
+    .your-order h4{
+        padding-top: 12px;
+    }
+    .product-item {
+        line-height: 25px;
+    }
+    .shipping-option{
+        line-height: 25px;
+    }
+    .payment-method-desc{
+        font-size: 12px;
+    }
+    .payment-method {
+        line-height: 25px;
+    }
+    th {
+    font-size: 24px;
+    }
+    td {
+    font-size: 19px;
+    }
+    .quantity-btn {
+    width: 110px;
+    height: 41px;
+    }
+    .quantity-btn .button-symbol {
+    width: 25px;
+    }
+    .continue-shipping a {
+    font-size: 14px;
+    }
+    .checkoutcart {
+    font-size: 14px;
+    }
+    .update {
+    font-size: 14px;
+    }
+    .product-detailsContent .star-icon {
+    padding: 0;
+    }
+    .product-detailsContent h4 {
+    padding: 5px 0 5px 0;
+    }
+    .product-detailsContent span {
+    padding-left: 0;
+    padding-bottom: 0;
+    }
+    .product-detailsContent{
+        margin-bottom: 20px;
+    }
+    .product-Details {
+    padding: 50px 0;
+    }
+}
+
+
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+    .about-us-imag1 img {
+        width: 100%;
+        height: 525px;
+    }
+
+    .about-us-imag2 img {
+        width: 100%;
+        height: 525px;
+    }
+
+    .about-us-imagesContainer {
+        gap: 20px;
+    }
+
+    .about-us-content p {
+        font-size: 14px;
+        line-height: 25px;
+    }
+
+    .footer-about h5 {
+        font-size: 23px;
+    }
+
+    .footer-contact i {
+        margin: 10px 15px 10px 0;
+    }
+
+    .footer-contact span {
+        font-size: 15px;
+    }
+
+    .product-details-content h4 {
+        font-size: 18px;
+    }
+
+    .play-btn {
+        left: 38%;
+    }
+    .productDetails-content h4 {
+        font-size: 49.63px;
+       }
+       .quantityButton {
+        width: 32%;
+    }
+    .order-btn {
+        width: 37%;
+    }
+    .nav-item {
+        font-size: 20px;
+    }
+    .product-detailsPage-image {
+        margin: 0 0px 20px 0px;
+    }
+
+    .product-detailsPage-image img {
+        height: 240px;
+        width: 100%;
+    }
+
+    .product-detailsPage-content {
+        padding: 15px 15px 15px 15px;
+    }
+
+    .product-detailsPage-content .star-icon i {
+        font-size: 20px;
+    }
+    .product-detailsPage-content .star-icon{
+        padding: 0;
+    }
+
+    .product-detailsPage-content h4 {
+        font-size: 15px;
+        padding: 0;
+    }
+
+    .product-detailsPage-content span {
+        font-size: 16.38px;
+    }
+    .product-detailsPage {
+        padding: 50px 0;
+    }
+    .map iframe{
+        width: 625px;
+        height: 555px;
+    } 
+    .contact-form {
+        width: 100%;
+    }
+    .billing-details {
+        width: 470px;
+    }
+    .billing-details h2 {
+        padding: 30px 30px;
+    }
+    .your-order {
+        height: 700px;
+        width: 454px;
+    }
+    .your-order h2 {
+        padding: 0;
+    }
+    .product-item {
+        line-height: 25px;
+    }
+    .shipping-option {
+        line-height: 25px;
+    }
+    .your-order h4 {
+        padding-top: 10px;
+    }
+    .payment-method {
+        line-height: 25px;
+    }
+    .service-content h4 {
+    padding-top: 10px;
+    margin-bottom: 0;
+    }
+    .service-btn {
+    padding-bottom: 15px;
+    }
+    .service-images img {
+    height: 275px;
+    }
+}
+
+@media only screen and (min-width: 1200px) and (max-width: 1400px) {
+    .footer-about h5 {
+        font-size: 28px;
+    }
+
+    .about-us-imag1 img {
+        width: 100%;
+    }
+
+    .about-us-imag2 img {
+        width: 100%;
+    }
+
+    .about-us-imagesContainer {
+        gap: 20px;
+    }
+
+    .product-details-content h4 {
+        font-size: 23px;
+    }
+    .product-detailsPage-image {
+        margin: 0 0px 20px 0px;
+    }
+
+    .product-detailsPage-image img {
+        height: 240px;
+        width: 100%;
+    }
+
+    .product-detailsPage-content {
+        padding: 15px 15px 15px 15px;
+    }
+
+    .product-detailsPage-content .star-icon i {
+        font-size: 20px;
+    }
+    .product-detailsPage-content .star-icon{
+        padding: 0;
+    }
+
+    .product-detailsPage-content h4 {
+        font-size: 20px;
+        padding: 10px 0;
+    }
+
+    .product-detailsPage-content span {
+        font-size: 19.38px;
+    }
+    .product-detailsPage {
+        padding: 50px 0;
+    }
+    .billing-details {
+        width: 100%;
+    }
+    .billing-details h2 {
+        padding: 30px 30px;
+    }
+}
+
+/* -------------slider---------------- */
+.service-box{
+    margin: 0 20px;
+}
+.slick-prev:before, .slick-next:before {
+    font-size: 29px;
+    color: grey;
+}
+.slick-slide img {
+    display: inline-block;
+}
