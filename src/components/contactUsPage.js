@@ -27,7 +27,7 @@ export default function contactUsPage() {
                 <div className="row align-items-center">
                     <div className="col-lg-6 p-0">
                         <div className="map">
-                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3620.07330698989!2d67.0659009748266!3d24.8613457452231!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3eb33f06125e618f%3A0x3fc2f68336bd478a!2sSKILLS%20360%20SMC%20PRIVATE%20LIMITED!5e0!3m2!1sen!2s!4v1749975432888!5m2!1sen!2s" width="698" height="593"  allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3620.07330698989!2d67.0659009748266!3d24.8613457452231!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3eb33f06125e618f%3A0x3fc2f68336bd478a!2sSKILLS%20360%20SMC%20PRIVATE%20LIMITED!5e0!3m2!1sen!2s!4v1749975432888!5m2!1sen!2s" title="Contact Form" width="698" height="593"  allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                         </div>
                     </div>
                     <div className="col-lg-6 p-0">
