@@ -36,13 +36,8 @@ export default function Header() {
                         <li class="nav-item">
                             <Link class="nav-link" to="/aboutUs">ABOUT US</Link>
                         </li>
-                        <li class="nav-item dropdown">
-                        <Link class="nav-link dropdown-toggle"  role="button" data-bs-toggle="dropdown"  aria-expanded="false" to="servicePage">SERVICES</Link>
-                        <ul class="dropdown-menu">
-                            <li class="dropdown-item">Action</li>
-                            <li class="dropdown-item">Another action</li>
-                            <li class="dropdown-item">Something else here</li>
-                        </ul>
+                        <li class="nav-item">
+                          <Link class="nav-link" to="/servicePage">SERVICES</Link>
                         </li>
                         <li class="nav-item">
                           <Link class="nav-link" to="/contactUsPage">CONTACT US</Link>

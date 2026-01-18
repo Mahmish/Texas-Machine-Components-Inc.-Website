@@ -64,7 +64,7 @@ export default function Service() {
                     <div className="row text-white">
                         <div className="col-lg-6">
                             <div className="title-content">
-                                <h1>Service Details</h1>
+                                <h1>Services</h1>
                             </div>
                         </div>
                     </div>
